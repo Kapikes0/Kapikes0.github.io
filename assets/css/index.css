@@ -1,0 +1,69 @@
+
+                                            /*pour la page 1 "index"*/
+
+/* tableau profile*/
+section table{       /* page 1*/
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#profile {
+    font-size: 1.7em;
+}
+
+.coord{
+    font-size: 1.3em;
+}
+
+section aside{
+    text-align: right;
+}
+#profile ,#competence ,.coord ,.bord {
+    
+    border-bottom: 1.5px solid darkred;
+}
+
+
+
+
+tfoot tr td button{     /* bouton*/
+    background-color: darkgoldenrod;
+    background-size: auto;
+    border: darkred solid 1px;
+}
+tr td span ,td span a:hover {
+    color:darkred ;
+    text-shadow: 2px 2px plum;
+}
+
+                    /*tableau competence*/
+#competence{
+    font-size: 2em;
+    text-align: center;
+}
+
+section div {
+    display: table-cell;
+    width: calc(100vw/4);
+    margin-left: 8%;
+    border-right: darkred 1px solid ;
+    padding-left: 2vw;
+    vertical-align: middle;
+
+}
+
+li{         /*icon checklist pour liste*/
+    list-style:url(./../image/page1/vecteezy_check_1200261.png);
+    padding: 1;
+    margin: 10%;    
+    text-align: left;
+}
+
+    
+.competence{       /*img page 1*/
+    background-image: url(./../image/page1/wallpapertip_developer.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 25%;
+ } 

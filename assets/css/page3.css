@@ -1,0 +1,96 @@
+
+
+                                /* pour la page 3 "page_3_du_cv"*/
+
+
+#diplome, #hobby, #contact,div p, th{
+      color: darkred;
+      text-align: center;
+}
+#diplome{
+      display: block;
+}
+
+       #diplome, #hobby, #contact{
+               font-size: 1.7em;
+               margin-bottom: 5%;
+              }
+
+        section span div p{
+                font-size: 1.2em;
+              }      
+        
+        section span div {
+              display: table-cell;
+              width: calc(100vw/2);
+              }
+
+        span div a {
+              display: table-cell;
+              width: calc(100vw/2);
+              padding: 0 25% 0 25%;
+              height: auto;
+              }
+
+        table{
+              width: 100%;
+              }
+
+
+
+
+
+  /*carouselle sur y  avec 4X5image*/
+  @keyframes display {
+    0% {transform: translatey(200px);
+          opacity: 0; }
+
+    10% {transform: translatey(0);
+          opacity: 1; }
+
+    20% {transform: translatey(0);
+          opacity: 1; }
+
+    30% {transform: translatey(-200px);
+          opacity: 0; }
+
+    100% {transform: translatey(-200px);
+          opacity: 0; }
+  }
+  
+  .mar-1 {
+        position: relative;
+        width: 20vw;
+        height: 300px;
+        margin-top: 5vh;
+      }
+  
+  .mar-1 > img {
+        position: absolute;
+        top: 0;
+        left: calc( 20px);
+        opacity: 0;
+        animation: display 20s infinite;
+      }
+  
+  img:nth-child(2) {
+        animation-delay: 4s;
+      }
+  img:nth-child(3) {
+        animation-delay: 8s;
+      }
+  img:nth-child(4) {
+        animation-delay: 12s;
+      }
+  img:nth-child(5) {
+        animation-delay: 16s;
+      }
+
+  div img{
+       width: 100%; height: auto;
+      }
+
+  
+  input{
+       width: 25vw;
+      }

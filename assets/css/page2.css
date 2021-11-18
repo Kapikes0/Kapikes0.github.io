@@ -1,0 +1,21 @@
+
+                                        /* pour la page 2 "page_2_du_cv"*/
+
+.table_2{       /*page 2*/
+    width: 80%;border-spacing: 20px;
+    text-align: center;
+    color:#c90000 ;
+    font-size: 1.2em;
+    margin-left: 15%;
+}
+#experience{
+        font-size: 1.5em;
+}
+.metier{           /*image page 2*/
+    background-image: url(./../image/page2/71-fuOiRlkL._SL1500_.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 15%;
+ } 
+ 
+

@@ -1,0 +1,70 @@
+        
+            /*pour toutes les pages*/
+
+/*image de fond + police*/
+body {
+    background-image: url(./../image/peinture-traditionnelle-de-sumi-e-du-japon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "bonzai";
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    }
+
+@font-face {         /* police*/
+    font-family:"bonzai" ;
+    src: url(./../font/bonzai.ttf);
+}
+@font-face{
+    font-family:"hiro";
+    src: url(./../font/aAsianHiro.ttf);
+}
+p::first-letter {       /*couleur premiere lettre*/
+  color: rgb(167, 120, 1);
+  font-size: 130%;
+}
+
+footer p{         /*copyright*/
+  font-family: "hiro";
+}
+
+a{        /* ancre*/
+  text-decoration: none;
+  color: rgb(24, 21, 21) ;
+}
+
+
+
+
+
+
+nav{                /*barre de navigation*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    }
+
+nav a:hover{
+    box-shadow:inset 0 0 7px rgba(255, 217, 0, 0.918),
+              12px 12px 2px 1px rgba(99, 3, 3, 0.555);
+    
+}
+
+
+
+/* espacement*/
+section {
+    margin-top: 15%;
+    margin-bottom: 10%;
+
+}
+
+
+
+footer div a {
+  display: inline-block;
+  position: fixed;
+  left: 95vw;  
+  top: 95vh;
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!--1.1.1-->
+<!-- premiere page de mon cv-->
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="author" content="Kapikes" />
+
+    <meta name="copyright" content="kapikes" />
+
+    <meta name="description" content="index" />
+
+    <meta name="keywords"
+        content="cv, jeremy, balsemin, experience, contact, Contacter, Developpeur, Web, Profile, Competences" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" type="image/jpg" href="./assets/image/avatar-gratuit.png" />
+
+    <title>CV de Balsemin Jeremy</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/global.css" />
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/global.css" />
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/global.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <!-- barre de navigation-->
+        <nav id="haut">
+
+            <a href="#profile" title="accueil" alt="Profile">
+                <img width="100" height="100" src="./assets/image/avatar-gratuit.png" title="Profile"
+                    alt="image profile">
+            </a>
+
+            <a href="#competence" title="ancre vers competence" alt="allez a competence">Mes Compétences👨‍💻</a>
+
+            <a href="./page_2_du_cv.html#experience" title="dirige vers experience" alt="allez a experience">
+                Mes Experiences↗📝 </a>
+
+            <a href="./page_3_du_cv.html#diplome" title="dirige vers Diplomes" alt="allez a Diplomes">Mes Diplômes📜
+            </a>
+
+            <a href="./page_3_du_cv.html#hobby" title="dirige vers Hobby" alt="allez a Hobby">Mes Hobbys🤿 </a>
+
+            <a href="./page_3_du_cv.html#contact" title="dirige vers contact" alt="allez a contact">Me Contacter📞</a>
+
+
+        </nav>
+        <!-- bouton pression-->
+        <script type="text/javascript">
+            function toggle_text(id) {
+                var span = document.getElementById(id);
+                if (span.style.display == "none") {
+                    span.style.display = "inline";
+                } else {
+                    span.style.display = "none";
+                }
+            }
+        </script>
+    </header>
+
+    <main>
+        <section>
+            <table >
+                <thead>
+                    <tr>
+                        <th  colspan="2" id="profile">
+                            <strong>Profile</strong>
+                            <img width="50" height="50" src="./assets/image/avatar-gratuit.png">
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- tableau profile-->
+                    <tr>
+                        <th class="bord">
+                            <p>Nom</p>
+                        </th>
+                        <td class="bord">BALSEMIN</td>
+                    </tr>
+                    <tr>
+                        <th class="bord">
+                            <p>Prémon</p>
+                        </th>
+                        <td class="bord">Jérémy</td>
+                    </tr>
+                    <tr>
+                        <th class="bord">
+                            <p>Age</p>
+                        </th>
+                        <td class="bord">29</td>
+                    </tr>
+                    <tr>
+                        <th >
+                            <p>Année de naissance</p>
+                        </th>
+                        <td>1992</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th class="coord" colspan="2">
+                            Coordonnées
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="bord">
+                            <P>Téléphone</P>
+                        </th>
+                        <!-- bouton cache text X3-->
+                        <td class="bord"><button type="button" onclick="toggle_text('span_txt');">📱</button>
+                            <span id="span_txt" style="display:none;">Telephone</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="bord">
+                            <p>Adresse Postale</p>
+                        </th>
+                        <td class="bord">
+                            <button type="button" onclick="toggle_text('span2_txt');">🏠</button>
+                            <span id="span2_txt" style="display:none;">
+                                82270 MONTALZAT
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="bord">
+                            <p>Adresse Mail</p>
+                        </th>
+                        <td class="bord">
+                            <button type="button" onclick="toggle_text('span3_txt');">📧</button>
+                            <span id="span3_txt" style="display:none;">
+                                <a href="./page_3_du_cv.html#contact" title="allez a contact"
+                                    alt="lien pour allez vers contact">
+                                    cliquer ici pour me Contacter</a></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="bord">
+                            <p>Permis</p>
+                        </th>
+                        <td class="bord">🚗,🛵,🦼</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+
+
+            <!-- phrase dicton-->
+            <aside >
+                <h4><i><b>Quand on veut, On peut!<a
+                                href="https://jtm--bebey.skyrock.com/2085614277-on-dit-quand-on-veut-on-peut-je-te-veux-je-peux.html"
+                                title="easter_eggs" alt="photo" target="_blank">!</a>!</b></i></h4>
+            </aside>
+        </section>
+
+        <section>
+            <!--tableau de competence-->
+
+            <p id="competence"> <strong >
+                    Compétences👨‍💻</strong>
+            </p>
+
+            <div>
+                <ul>
+                    <li>
+                        <p>Capacité d'écoute</p>
+                    </li>
+                    <li>
+                        <p>Créativité</p>
+                    </li>
+                    <li>
+                        <p>Discret</p>
+                    </li>
+                    <li>
+                        <p>Envie d'apprendre</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <p>Réfléchi</p>
+                    </li>
+                    <li>
+                        <p>Savoir etre amical</p>
+                    </li>
+                    <li>
+                        <p>Un peu d'humour</p>
+                    </li>
+                    <li>
+                        <p>Opiniâtre</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <p>Travail d'équipe</p>
+                    </li>
+                    <li>
+                        <p>Expliquer</p>
+                    </li>
+                    <li>
+                        <p>S'adapter</p>
+                    </li>
+                    <li>
+                        <p>Resoudre des probleme</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <p>Curieux</p>
+                    </li>
+                    <li>
+                        <p>Ambitieux</p>
+                    </li>
+                    <li>
+                        <p>Savoir déléguer des taches</p>
+                    </li>
+                    <li>
+                        <p>Penser en dehors de la normes</p>
+                    </li>
+                </ul>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="competence"></div>
+        <!--retour vers le haut-->
+        <div>
+            <a href="#haut" title="haut de page" alt="haut de page">⬆️</a>
+        </div>
+        <p>&copy;Kapikes</p>
+    </footer>
+</body>
+
+</html>

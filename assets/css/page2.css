@@ -18,4 +18,15 @@
     padding: 15%;
  } 
  
-
+ tr td a img:hover{
+     animation: spin 1s linear 1;
+ }
+ @keyframes spin {
+     from{
+         transform: rotate(0deg);
+     }
+     to{
+         transform: rotate(360deg);
+     }
+     
+ }
